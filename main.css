@@ -4,3 +4,17 @@ html, body {
     /* Set your content font stack here: */
     font-family: 'Lato', sans-serif;
 }
+
+@media screen and (min-width: 769px) {
+	.nav-right.nav-menu {
+		display: flex !important;
+	}
+}
+
+header #title {
+	padding-left: 10px;
+}
+
+header.nav > .container > .nav-right > .nav-item:last-child:not(.is-tab) {
+	padding-right: 10px;
+}
