@@ -18,3 +18,38 @@ header #title {
 header.nav > .container > .nav-right > .nav-item:last-child:not(.is-tab) {
 	padding-right: 10px;
 }
+
+.hero-foot nav {
+	justify-content: flex-end;
+}
+
+img {
+	max-width: 100%;
+}
+
+/* main section content */
+
+.about {
+	width: 100%;
+    height: 100%;
+    padding: 0 10px;
+    border-right: 5px solid gainsboro;
+    border-left: 5px solid gainsboro;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+}
+
+
+
+/* helper classes */
+
+.rounded {
+	border-radius: 5px;
+}
+
+.img-350 {
+	width: 350px;
+}
