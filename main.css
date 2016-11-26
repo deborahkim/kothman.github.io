@@ -23,7 +23,7 @@ header.nav .nav-menu .nav-item {
 	border-bottom: 3px solid transparent;
 }
 
-header.nav .nav-menu .nav-item:hover, header.nav .nav-menu .nav-item.is-active {
+header.nav .nav-menu .nav-item:hover:not(span), header.nav .nav-menu .nav-item.is-active {
 	border-bottom: 3px solid gainsboro;
 }
 
