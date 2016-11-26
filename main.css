@@ -19,6 +19,14 @@ header.nav > .container > .nav-right > .nav-item:last-child:not(.is-tab) {
 	padding-right: 10px;
 }
 
+header.nav .nav-menu .nav-item {
+	border-bottom: 3px solid transparent;
+}
+
+header.nav .nav-menu .nav-item:hover, header.nav .nav-menu .nav-item.is-active {
+	border-bottom: 3px solid gainsboro;
+}
+
 .hero-foot nav {
 	justify-content: flex-end;
 }
