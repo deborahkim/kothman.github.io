@@ -15,7 +15,6 @@
 	function addEventListeners() {
 		// Event listener for toggling navigation visible on mobile
 		$("#toggle").on("click", toggleNav);
-
 		
 	}
 
@@ -25,6 +24,11 @@
 		nav.css("display") == "none" ?
 			nav.css("display", "block") :
 			nav.css("display", "");
+	}
+
+	window.showIframe = function (e) {
+		$(e.parentElement).removeClass("loading")
+		e.style.opacity = "1";
 	}
 
 })();
