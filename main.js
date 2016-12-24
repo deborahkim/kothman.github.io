@@ -15,6 +15,8 @@
 	function addEventListeners() {
 		// Event listener for toggling navigation visible on mobile
 		$("#toggle").on("click", toggleNav);
+
+		
 	}
 
 	function toggleNav() {
